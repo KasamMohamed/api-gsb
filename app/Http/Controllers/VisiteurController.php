@@ -6,6 +6,7 @@ use http\Env\Response;
 use Illuminate\Http\Request;
 use App\Models\Visiteur;
 use Exception;
+Use Illuminate\Support\Facades\Auth;
 
 class VisiteurController extends Controller
 {
